@@ -1,0 +1,21 @@
+{
+    "name": "Tab Checker",
+    "version": "1.0.0.0",
+    "description": "Tab Checker",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "notifications"
+    ],
+    "action": {
+        "default_title": "Tab Checker",
+        "default_icon": {
+            "16": "logo.png",
+            "24": "logo.png",
+            "32": "logo.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
